@@ -1,5 +1,5 @@
 export const sendToGemini = async (fileName, content) => {
-  const apiKey = 'AIzaSyAqRtjEVwJi_2pWr4_H33-sdHi5fgs-LmM'; // Replace securely later
+  const apiKey = ''; // Replace securely later
   const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + apiKey, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
